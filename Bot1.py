@@ -1,5 +1,5 @@
 import telebot
-bot = telebot.TeleBot('8144284032:AAH6SIkPcnm3v5ZkU28-3XEFOe_d52RKjcI')
+bot = telebot.TeleBot('')
 @bot.message_handler(commands=['start'])
 def start(message):
     bot.send_message(message.chat.id, 'Hello! I am a bot that can help you with various tasks. Type /help to see what I can do!')

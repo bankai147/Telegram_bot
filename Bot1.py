@@ -5,6 +5,7 @@ bot = telebot.TeleBot('8144284032:AAH6SIkPcnm3v5ZkU28-3XEFOe_d52RKjcI')
 @bot.message_handler(commands=['site', 'website'])
 def site(message):
     webbrowser.open('https://www.youtube.com')
+bot = telebot.TeleBot('')
 @bot.message_handler(commands=['start'])
 def start(message):
     markup = types.ReplyKeyboardMarkup()

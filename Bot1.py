@@ -1,7 +1,7 @@
 import telebot
 import webbrowser
 from telebot import types
-bot = telebot.TeleBot('8144284032:AAH6SIkPcnm3v5ZkU28-3XEFOe_d52RKjcI')
+bot = telebot.TeleBot('YOUR_TOKEN_HERE')
 @bot.message_handler(commands=['site', 'website'])
 def site(message):
     webbrowser.open('https://www.youtube.com')
